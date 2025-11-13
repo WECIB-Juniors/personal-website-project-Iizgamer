@@ -1,3 +1,58 @@
+/* Color Pallette:
+    Light Shade (Background): #ECE8E3
+    Light Accent (Attention Grabber): #79BDA7
+    Main Brand Color (Main Identity): #008080
+    Dark Accent (Secondary Attention Grabber): #406484
+    Dark Shade (Text Color): #19171D */
+
 * {
     box-sizing: border-box;
+    background-color: #ECE8E3;
+}
+
+.name {
+    color: #19171D;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    display: inline-block;
+    border-radius: 100%;
+    width: 1000px;
+}
+
+h1 {
+    color: #19171D;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+p, li, footer, button {
+    color: #19171D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+h2 {
+    color: #19171D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+a {
+    color: #406484;
+}
+
+a:hover {
+    color: #79BDA7
+}
+
+button {
+    color: #406484;
+    background-color: #79BDA7;
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: #406484;
+    color: #ECE8E3;
+    cursor: pointer;
 }
